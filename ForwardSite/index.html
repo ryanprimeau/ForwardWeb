@@ -1,15 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="1;url=http://localhost/Account.html">
-        <script type="text/javascript">
-            window.location.href = "http://localhost/Account.html"
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow the <a href='http://localhost/Account.html'>link to example</a>
-    </body>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Forward - Login Form</title>
+
+    <link rel="stylesheet" href="landingstyle.css" media="screen" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="Icon-Small.png"/>
+</head>
+
+<body>
+
+  <body>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Forward</h1>
+			</div>
+
+			<div class="login-form">
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="username" id="login-name">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+				</div>
+
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+				</div>
+
+				<a class="btn btn-primary btn-large btn-block" href="#">login</a>
+				<a class="login-link" href="#">Lost your password?</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</body>
 </html>
